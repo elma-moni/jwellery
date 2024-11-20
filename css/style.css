@@ -1,0 +1,273 @@
+.navbar-nav .nav-link {
+    font-weight: bold;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #151515;
+
+}
+
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.hero-image {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+
+.hero-content {
+    z-index: 2;
+    text-align: start;
+}
+
+.btn-warning {
+    color: #ff9800;
+    background-color: #080808;
+    border-color: #ff9800;
+}
+
+.btn-warning:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product-card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.product-card h6 {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    text-align: start;
+}
+
+.product-card .price {
+    color: #ff5722;
+    font-weight: bold;
+    text-align: end;
+}
+
+.view-all-btn {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ff7043;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-all-btn:hover {
+    background-color: #ff5722;
+    text-decoration: none;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.about-img-wrapper {
+    position: relative;
+    max-width: 900px;
+    margin-right: 20px;
+}
+
+.about-img-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #000;
+    z-index: -1;
+}
+
+.about-img {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7043;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.read-more-btn:hover {
+    background-color: #ff5722;
+    text-decoration: none;
+}
+
+.offer-card {
+    position: relative;
+    text-align: center;
+    color: white;
+   
+}
+
+.offer-card img {
+    width: 100%;
+    
+}
+
+.offer-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.offer-overlay-1{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.offer-overlay h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.offer-overlay a {
+    color: #e68a00;
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    border:2px solid #e68a00;
+}
+.discount-image{
+    height: 590px;
+}
+
+.offer-overlay a:hover {
+    background-color: #FF4500;
+    border-color: #e68a00;
+}
+
+.offer-overlay-1 a {
+    color: #e68a00;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border:2px solid #e68a00;
+}
+
+
+.offer-overlay-1 a:hover {
+    background-color: #FF4500;
+    border-color: #e68a00;
+}
+
+.box{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    background-color: #160e0b;
+    border: 3px solid white;
+   bottom: 11.5rem;
+ }
+
+ .image{
+    position: relative;
+ }
+
+ .icon i{
+    height:30px;
+    width:30px;
+    border: 1px solid;
+    color: white;
+    font-size: x-small;
+    padding: 0.6rem;
+ }
+
+ .footer ul{
+    list-style: none;
+ }
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.ft-pic{
+    height: 60px;
+    width: 60px;
+}
+
+.footer img{
+   padding: 5px;
+}
+
+
+.contact a{
+    line-height: 1.7rem;
+}
+.contact i{
+    margin-right: 10px;
+    font-size: small;
+    }
+  
